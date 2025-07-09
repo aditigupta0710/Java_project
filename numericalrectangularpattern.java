@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class patterntriangle {
+public class numericalrectangularpattern {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int r = sc.nextInt();
