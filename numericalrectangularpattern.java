@@ -1,10 +1,8 @@
 import java.util.Scanner;
 
-<<<<<<< HEAD
+
 public class numericalrectangularpattern{
-=======
-public class numericalrectangularpattern {
->>>>>>> fd55cd506cc306b1dda6cc9abacb25de8d9d54fb
+
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int r = sc.nextInt();
@@ -19,8 +17,8 @@ public class numericalrectangularpattern {
             }
         } System.out.println();
     }
-<<<<<<< HEAD
+
 }
-=======
-}
->>>>>>> fd55cd506cc306b1dda6cc9abacb25de8d9d54fb
+
+
+
