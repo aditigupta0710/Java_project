@@ -18,6 +18,6 @@ public class primecheck {
             }
         }
     }
-        System.out.println(number + "is prime? " + isPrime);
+        System.out.println(number + " is prime? " + isPrime);
     }
 }
