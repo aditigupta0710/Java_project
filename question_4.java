@@ -16,9 +16,9 @@ import java.util.Scanner;
     Scanner sc = new Scanner(System.in);
             System.out.println("enter size of array : ");
             int n = sc.nextInt();
-
+n(
             int[] arr = new int[n];
-            System.out.println("enter " + n + " element ");
+            System.out.printl"enter " + n + " element ");
             for(int i = 0 ; i < arr.length; i++){
                 arr[i]  = sc.nextInt();
             }            
