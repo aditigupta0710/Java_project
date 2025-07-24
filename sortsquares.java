@@ -8,20 +8,14 @@ public class sortsquares{
         }
         System.out.println();
     }
-    public class ReverseExample {
-    public static String reverse(String input) {
-        String reversed = "";
-        for(int i = input.length() - 1; i >= 0; i--) {
-            reversed += input.charAt(i);
+     static void reverse(int[]arr){
+        int i = 0, j = arr.length-1;
+        while(i < j){
+        swap(arr,i,j);
+            i++;
+        j--;
         }
-        return reversed;
-    }
-    
 
-     static void swap(int[] arr, int i, int j) {
-        int temp = arr[i];
-        arr[i] = arr[j];
-        arr[j] = temp;
     }
     static int[] sortsquares(int[] arr) {
         int n = arr.length;
@@ -56,7 +50,7 @@ public class sortsquares{
         System.out.println("sorted array : ");
         reverse(ans);
         printArray(ans);
-    }
+    
     }
 }
 
