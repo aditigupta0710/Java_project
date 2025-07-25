@@ -1,14 +1,12 @@
 import java.util.Scanner;
 
-public class prefixSum {
-        static int[] prefixsum(int[] arr){
+public class makeprefixsumarray {
+        static int[] makeprefixsumarray(int[] arr){
             int n = arr.length;
-            int[] pref = new int[n];
-            pref[0] = arr[0];
             for(int i = 1;i < n; i++) {
-                pref[i] = pref[i-1] + arr[i];
+                arr[i] = arr[i-1] + arr[i];
             }
-            return pref;
+            return arr;
         }
         static void printArray(int[] arr){
         for(int i = 0; i < arr.length; i++) {
@@ -27,8 +25,9 @@ public class prefixSum {
             arr[i] = sc.nextInt();
         }
         System.out.println("input array ");
-        printArray(arr); 
-        int[] pref = prefixsum(arr);
+        printArray(arr);
+        int[] pref = makeprefixsumarray(arr);
         printArray(pref);
+    
     }
 }
