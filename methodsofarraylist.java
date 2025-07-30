@@ -1,5 +1,5 @@
 import java.util.ArrayList;
-    public class methodsofarrraylist {
+    public class methodsofarraylist {
     public static void main(String[] args) {
         ArrayList<Integer> l1 = new ArrayList<>();
         l1.add(5);
@@ -35,6 +35,10 @@ import java.util.ArrayList;
         // removing an element e
         l1.remove(Integer.valueOf(100));
         System.out.println(l1);
+
+        // checking if an element exists or not
+        boolean ans = l1.contains(Integer.valueOf(80));
+        System.out.println(ans);
         
     }
 }
