@@ -13,7 +13,7 @@ public class algebra{
         int x = sc.nextInt();
         int y = sc.nextInt();
 
-        System.out.println("sum of input numbers: ");
+        System.out.println("sum of input numbers x and y: ");
         int ans = obj.add(x,y);
         System.out.println(ans);
     }
