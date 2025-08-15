@@ -10,7 +10,7 @@ public class allindex {
         findallindex(arr, target, idx+1);
     }
     public static void main(String[] args) {
-        int[] arr = {1,2,4,3,3,4,6};
+        int[] arr = {4,5,6,4,3,3,4,6};
         int target = 4;
         findallindex(arr, target, 0);
     }
