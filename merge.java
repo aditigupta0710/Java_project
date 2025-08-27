@@ -41,6 +41,6 @@ public class merge {
         mergesort(arr, 0, n-1);
         System.out.println();
         System.out.println("Array after sorting : ");
-        displayArr(arr);
+2        displayArr(arr);
     }
 }
