@@ -8,6 +8,7 @@ public class SortArr {
     static void sortarray(int[] num) {
         int n = num.length;
         int x = -1 , y = -1;
+        if (n <= 1) return;
         for(int i = 1; i < n; i++) {
             if(num[i-1] > num[i]) {
                 if(x == -1) {
