@@ -1,8 +1,10 @@
 interface Animal {
     public void walk() ;
 }
-
-class Horse implements Animal {
+ interface herbivore{
+    
+}
+class Horse implements Animal , herbivore { // multiple inheritance(can be done by only interfaces)
     public void walk() {
         System.out.println("walks on 4 legs");
     }
