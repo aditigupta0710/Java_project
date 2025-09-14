@@ -48,11 +48,16 @@ public class deleteindex {
         }
 
         void deleteAt(int idx) {
+            if(idx == 0)   { 
+                head = head.next;
+                return;
+            }
             Node temp = head;
             for(int i = 1; i <= idx; i++) {
                 temp = temp.next;
             }
             temp.next = temp.next.next;
+            tail = temp;
         }
         void display() {
             Node temp  = head;
